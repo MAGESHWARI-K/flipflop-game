@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlipFlop Game Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-body">
+
+<div class="login-box">
+
+<h1>🎮FlipFlop Game</h1>
+<p>Welcome👋</p>
+
+<input id="username" placeholder="Username">
+<input id="password" type="password" placeholder="Password">
+<input id="age" type="number" placeholder="Age">
+
+<select id="level">
+<option>Easy</option>
+<option>Medium</option>
+<option>Hard</option>
+</select>
+
+<div class="rules-box">
+<h3>📜Game Rules</h3>
+<ul>
+<li>Flip 2 cards at a time</li>
+<li>Match cards stay open</li>
+<li>Wrong cards flip back</li>
+<li>Finish fast</li>
+</ul>
+</div>
+
+<label>
+<input type="checkbox" id="agree">
+    Agree with these rules
+</label>
+
+<button onclick="login()">Start Game</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

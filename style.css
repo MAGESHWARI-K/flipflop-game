@@ -1,0 +1,123 @@
+
+
+.login-body{
+    margin:0;
+    height:100vh;
+    font-family:sans-serif;
+    background: linear-gradient(135deg,#a8edea,#fed6e3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    width:380px;
+    text-align:center;
+}
+
+.login-box input,
+.login-box select{
+    width:90%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+.rules-box{
+    background:#fff7e6;
+    padding:15px;
+    border-radius:12px;
+    text-align:left;
+    font-size:14px;
+}
+
+.agree{
+    display:block;
+    margin:15px 0;
+}
+
+.login-box button{
+    padding:12px;
+    width:100%;
+    background:#329696;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#9ca8ba;
+}
+
+
+
+.game-body{
+    margin:0;
+    min-height:100vh;
+    font-family:sans-serif;
+    background: linear-gradient(135deg,#89f7fe,#66a6ff);
+    text-align:center;
+}
+
+.game-board{
+    margin:20px auto;
+    width:fit-content;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+
+.card{
+    width:90px;
+    height:90px;
+    background:white;
+    border-radius:12px;
+    font-size:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+
+.stats{
+    margin-bottom:15px;
+}
+
+
+
+
+.score-body{
+    margin:0;
+    height:100vh;
+    font-family:sans-serif;
+    background: linear-gradient(135deg,#a8edea,#fed6e3);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.score-box{
+    background:white;
+    width:350px;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.score-box button{
+    padding:12px 25px;
+    background:#89f7fe;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.score-box button:hover{
+    background:#66a6ff;
+}
